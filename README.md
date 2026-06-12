@@ -19,3 +19,19 @@ This guide documents the setup process, configuration steps, errors encountered,
 This setup follows a security-focused architecture by separating the application and database roles into different network tiers. External LAN communication is allowed only to the application tier, while the data tier is not directly accessible from the LAN. The application tier is permitted to communicate with the data tier over the private network, reducing exposure and following the principle of least privilege.
 
 This design demonstrates basic infrastructure concepts such as virtualization, network segmentation, controlled access, server administration, firewall configuration, and application-to-database connectivity.
+
+## Diagrams
+
+### Two-Tier Network Architecture
+
+![Two-Tier Network Architecture](diagrams/architecure-overview.jpg)
+
+### LAN and Proxmox Overview
+
+![LAN and Proxmox Overview](diagrams/network-overiew.jpg)
+
+## Full Documentation
+
+A full step-by-step setup guide is available here:
+
+[Download the full project guide](Two-Tier-Virtualized-Server-Lab-Guide.pdf)
